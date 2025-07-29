@@ -1,4 +1,4 @@
-var countDownDate = new Date("Aug 2, 2025 07:30:00").getTime();
+var countDownDate = new Date("Sep 24, 2025 00:00:00").getTime();
 
 function updateTimer() {
     var now = new Date().getTime();
@@ -9,8 +9,8 @@ function updateTimer() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-        + minutes + "m " + seconds + "s ";
+    document.getElementById("timer").innerHTML = days + "D " + hours + "H "
+        + minutes + "M " + seconds + "S ";
 
     if (distance < 0) {
         clearInterval(x);

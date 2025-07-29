@@ -1,22 +1,11 @@
-var countDownDate = new Date("Aug 2, 2025 07:30:00").getTime();
+function updateTime() {
+    var now = new Date();
+    var hours = now.getHours().toString().padStart(2, '0');
+    var minutes = now.getMinutes().toString().padStart(2, '0');
+    var seconds = now.getSeconds().toString().padStart(2, '0');
 
-function updateTimer() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    document.getElementById("current-time").innerHTML = days + "d " + hours + "h "
-        + minutes + "m " + seconds + "s ";
-
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("current-time").innerHTML = "EXPIRED";
-    }
+    document.getElementById("current-time").innerHTML = hours + ":" + minutes + ":" + seconds;
 }
 
 updateTime();
-var x = setInterval(updateTime, 1000);
+setInterval(updateTime, 1000);

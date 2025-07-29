@@ -12,11 +12,22 @@ html {
 }
 
 .current-time {
+    margin: 20vh 720px 50px 700px;
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.current-time h1 {
+    margin: 20px;
 }
 
 .main-container {
-    margin: 0px 450px 0px 450px;
+    margin: 0px 525px 0px 525px;
     border: 6px solid rgb(255, 255, 255);
     border-radius: 20px;
     backdrop-filter: blur(15px);
@@ -24,7 +35,6 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 35vh;
 }
 
 .search-bar {
@@ -51,11 +61,8 @@ html {
 }
 
 .content-logo {
-    margin: 20px;
 }
 .content-title {
-    margin: 20px;
 }
 .content-timer {
-    margin: 20px;
 }
