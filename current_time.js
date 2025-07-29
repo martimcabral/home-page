@@ -9,14 +9,14 @@ function updateTimer() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+    document.getElementById("current-time").innerHTML = days + "d " + hours + "h "
         + minutes + "m " + seconds + "s ";
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "EXPIRED";
+        document.getElementById("current-time").innerHTML = "EXPIRED";
     }
 }
 
-updateTimer();
-var x = setInterval(updateTimer, 1000);
+updateTime();
+var x = setInterval(updateTime, 1000);
