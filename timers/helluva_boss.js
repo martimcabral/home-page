@@ -1,21 +1,21 @@
-var Element = document.getElementById("hbtimer")
-var countDownDate = new Date("Sep 10, 2025 00:00:00").getTime();
+var ElementHB = document.getElementById("hbtimer")
+var countDownDateHB = new Date("Sep 10, 2025 00:00:00").getTime();
 
 function updateHBTimer() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
+    var nowHB = new Date().getTime();
+    var distanceHB = countDownDateHB - nowHB;
 
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var daysHB = Math.floor(distanceHB / (1000 * 60 * 60 * 24));
+    var hoursHB = Math.floor((distanceHB % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutesHB = Math.floor((distanceHB % (1000 * 60 * 60)) / (1000 * 60));
+    var secondsHB = Math.floor((distanceHB % (1000 * 60)) / 1000);
 
-    Element.innerHTML = days + "D " + hours + "H "
-        + minutes + "M " + seconds + "S ";
+    ElementHB.innerHTML = daysHB + "D " + hoursHB + "H "
+        + minutesHB + "M " + secondsHB + "S ";
 
-    if (distance < 0) {
+    if (distanceHB < 0) {
         clearInterval(x);
-        Element.innerHTML = "EXPIRED";
+        ElementHB.innerHTML = "EXPIRED";
     }
 }
 

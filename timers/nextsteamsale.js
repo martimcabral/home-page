@@ -1,21 +1,21 @@
-var Element = document.getElementById("steamtimer")
-var countDownDate = new Date("Sep 29, 2025 17:00:00").getTime();
+var ElementSteam = document.getElementById("steamtimer")
+var countDownDateSteam = new Date("Sep 29, 2025 17:00:00").getTime();
 
 function updateNSteamSaleTimer() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
+    var nowSteam = new Date().getTime();
+    var distanceSteam = countDownDateSteam - nowSteam;
 
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var daysSteam = Math.floor(distanceSteam / (1000 * 60 * 60 * 24));
+    var hoursSteam = Math.floor((distanceSteam % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutesSteam = Math.floor((distanceSteam % (1000 * 60 * 60)) / (1000 * 60));
+    var secondsSteam = Math.floor((distanceSteam % (1000 * 60)) / 1000);
 
-    Element.innerHTML = days + "D " + hours + "H "
-        + minutes + "M " + seconds + "S ";
+    ElementSteam.innerHTML = daysSteam + "D " + hoursSteam + "H "
+        + minutesSteam + "M " + secondsSteam + "S ";
 
-    if (distance < 0) {
+    if (distanceSteam < 0) {
         clearInterval(x);
-        Element.innerHTML = "EXPIRED";
+        ElementSteam.innerHTML = "EXPIRED";
     }
 }
 

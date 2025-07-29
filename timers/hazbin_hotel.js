@@ -1,21 +1,21 @@
-var Element = document.getElementById("hhtimer")
-var countDownDate = new Date("Oct 29, 2025 00:00:00").getTime();
+var ElementHH = document.getElementById("hhtimer")
+var countDownDateHH = new Date("Oct 29, 2025 00:00:00").getTime();
 
 function updateHHTimer() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
+    var nowHH = new Date().getTime();
+    var distanceHH = countDownDateHH - nowHH;
 
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var daysHH = Math.floor(distanceHH / (1000 * 60 * 60 * 24));
+    var hoursHH = Math.floor((distanceHH % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutesHH = Math.floor((distanceHH % (1000 * 60 * 60)) / (1000 * 60));
+    var secondsHH = Math.floor((distanceHH % (1000 * 60)) / 1000);
 
-    Element.innerHTML = days + "D " + hours + "H "
-        + minutes + "M " + seconds + "S ";
+    ElementHH.innerHTML = daysHH + "D " + hoursHH + "H "
+        + minutesHH + "M " + secondsHH + "S ";
 
-    if (distance < 0) {
+    if (distanceHH < 0) {
         clearInterval(x);
-        Element.innerHTML = "EXPIRED";
+        ElementHH.innerHTML = "EXPIRED";
     }
 }
 
