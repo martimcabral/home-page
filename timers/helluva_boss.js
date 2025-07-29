@@ -1,7 +1,7 @@
 var Element = document.getElementById("hbtimer")
 var countDownDate = new Date("Sep 10, 2025 00:00:00").getTime();
 
-function updateTimer() {
+function updateHBTimer() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
 
@@ -19,5 +19,5 @@ function updateTimer() {
     }
 }
 
-updateTimer();
-var x = setInterval(updateTimer, 1000);
+updateHBTimer();
+var x = setInterval(updateHBTimer, 1000);

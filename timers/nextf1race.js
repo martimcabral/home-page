@@ -1,7 +1,7 @@
 var Element = document.getElementById("f1timer");
 var countDownDate = new Date("Aug 3, 2025 13:00:00").getTime();
 
-function updateTimer() {
+function updateF1Timer() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
 
@@ -19,5 +19,5 @@ function updateTimer() {
     }
 }
 
-updateTimer();
-var x = setInterval(updateTimer, 1000);
+updateF1Timer();
+var x = setInterval(updateF1Timer, 1000);

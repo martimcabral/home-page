@@ -1,7 +1,7 @@
 var Element = document.getElementById("steamtimer")
 var countDownDate = new Date("Sep 29, 2025 17:00:00").getTime();
 
-function updateTimer() {
+function updateNSteamSaleTimer() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
 
@@ -19,5 +19,5 @@ function updateTimer() {
     }
 }
 
-updateTimer();
-var x = setInterval(updateTimer, 1000);
+updateNSteamSaleTimer();
+var x = setInterval(updateNSteamSaleTimer, 1000);
