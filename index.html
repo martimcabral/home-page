@@ -7,27 +7,71 @@
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
 </head>
-    <body>
-        <div class="current-time">
-            <h1 id="current-time"></h1><script src="current_time.js"></script>
-        </div>
-        <div class="main-container">
-            <div class="search-bar">
-                <input type="text" placeholder="Search...">
-            </div>
-            <div class="content-container">
-                <div class="content-logo">
-                    <img src="imgs/favicon.png" alt="Logo">
-                </div>
-                <div class="content-column">
-                    <div class="content-title">
-                        <p>18 Anos</p>
-                    </div>
-                    <div class="content-timer">
-                        <p id="timer"></p><script src="timer.js"></script>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+<body>
+    <div class="current-time">
+        <h1 id="current-time"></h1>
+        <script src="current_time.js"></script>
+    </div>
+    <div class="main-container">
+        <table>
+            <tr>
+                <td><img class="content-logo" src="imgs/f1.png"></td>
+                <td>
+                    <p class="content-title">Próxima Corrida: 🇭🇺 Hungria 🇭🇺</p>
+                    <p class="content-date">3 de Agosto de 2025 - 13:00</p>
+                    <p id="f1timer" class="content-timer"></p>
+                    <script src="timers/nextf1race.js"></script>
+                </td>
+            </tr>
+            <tr>
+                <td><img class="content-logo" src="imgs/patinho.png"></td>
+                <td>
+                    <p class="content-title">18 Anos</p>
+                    <p class="content-date">24 de Setembro de 2025</p>
+                    <p id="18timer" class="content-timer"></p>
+                    <script src="timers/18anos.js"></script>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://store.steampowered.com/wishlist/id/atlas_13/" target="_blank">
+                        <img class="content-logo" src="imgs/steam.png">
+                    </a>
+                </td>
+                <td>
+                    <p class="content-title">Próxima Promoção da Steam: Outono</p>
+                    <p class="content-date">29 de Setembro de 2025 - 17:00</p>
+                    <p id="steamtimer" class="content-timer"></p>
+                    <script src="timers/nextsteamsale.js"></script>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://store.steampowered.com/wishlist/id/atlas_13/" target="_blank">
+                        <img class="content-logo" src="imgs/helluva_boss.png">
+                    </a>
+                </td>
+                <td>
+                    <p class="content-title">Helluva Boss - 3ª Temporada</p>
+                    <p class="content-date">10 de Setembro de 2025</p>
+                    <p id="hbtimer" class="content-timer"></p>
+                    <script src="timers/helluva_boss.js"></script>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://store.steampowered.com/wishlist/id/atlas_13/" target="_blank">
+                        <img class="content-logo" src="imgs/habin_hotel.png">
+                    </a>
+                </td>
+                <td>
+                    <p class="content-title">Hazbin Hotel - 2ª Temporada</p>
+                    <p class="content-date">15 de Outubro de 2025</p>
+                    <p id="hhtimer" class="content-timer"></p>
+                    <script src="timers/hazbin_hotel.js"></script>
+                </td>
+            </tr>
+        </table>
+    </div><br>
+</body>
 </html>

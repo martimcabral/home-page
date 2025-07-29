@@ -1,4 +1,5 @@
-var countDownDate = new Date("Sep 24, 2025 00:00:00").getTime();
+var Element = document.getElementById("f1timer");
+var countDownDate = new Date("Aug 3, 2025 13:00:00").getTime();
 
 function updateTimer() {
     var now = new Date().getTime();
@@ -9,12 +10,12 @@ function updateTimer() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById("timer").innerHTML = days + "D " + hours + "H "
+    Element.innerHTML = days + "D " + hours + "H "
         + minutes + "M " + seconds + "S ";
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "EXPIRED";
+        Element.innerHTML = "EXPIRED";
     }
 }
 
