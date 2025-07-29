@@ -1,0 +1,45 @@
+body {
+    font-family: Impact;
+    background-image: url('imgs/background.png');
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50vh;
+}
+
+.search-bar {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.content-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.content-logo {
+    margin: 20px;
+}
+.content-title {
+    margin: 20px;
+}
+.content-timer {
+    margin: 20px;
+}

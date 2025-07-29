@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
 </head>
     <body>
         <div class="main-container">
-            <div class="row">
-                <div class="search-bar">
-                    
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="content-container">
+                <div class="content-logo">
+                    <img src="imgs/favicon.png" alt="Logo">
                 </div>
-                <div class="content-container">
-                    <div class="content-logo">
-                        
+                <div class="content-column">
+                    <div class="content-title">
+                        <p>Batatinha</p>
                     </div>
-                    <div>
-                        <div class="content-title">
-
-                        </div>
-                        <div class="content-description">
-
+                    <div class="content-timer">
+                        <div>
+                            <p id="timer"></p>
+                            <script src="timer.js"></script>
                         </div>
                     </div>
                 </div>
