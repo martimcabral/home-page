@@ -10,12 +10,11 @@ function updateHHTimer() {
     var minutesHH = Math.floor((distanceHH % (1000 * 60 * 60)) / (1000 * 60));
     var secondsHH = Math.floor((distanceHH % (1000 * 60)) / 1000);
 
-    ElementHH.innerHTML = daysHH + "D " + hoursHH + "H "
-        + minutesHH + "M " + secondsHH + "S ";
-
     if (distanceHH < 0) {
         clearInterval(x);
         ElementHH.innerHTML = "EXPIRED";
+    } else {
+        ElementHH.innerHTML = daysHH + "D " + hoursHH + "H " + minutesHH + "M " + secondsHH + "S ";
     }
 }
 

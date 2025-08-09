@@ -10,12 +10,11 @@ function updateNSteamSaleTimer() {
     var minutesSteam = Math.floor((distanceSteam % (1000 * 60 * 60)) / (1000 * 60));
     var secondsSteam = Math.floor((distanceSteam % (1000 * 60)) / 1000);
 
-    ElementSteam.innerHTML = daysSteam + "D " + hoursSteam + "H "
-        + minutesSteam + "M " + secondsSteam + "S ";
-
     if (distanceSteam < 0) {
         clearInterval(x);
         ElementSteam.innerHTML = "EXPIRED";
+    } else {
+        ElementSteam.innerHTML = daysSteam + "D " + hoursSteam + "H " + minutesSteam + "M " + secondsSteam + "S ";
     }
 }
 

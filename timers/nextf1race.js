@@ -10,12 +10,11 @@ function updateF1Timer() {
     var minutesF1 = Math.floor((distanceF1 % (1000 * 60 * 60)) / (1000 * 60));
     var secondsF1 = Math.floor((distanceF1 % (1000 * 60)) / 1000);
 
-    ElementF1.innerHTML = daysF1 + "D " + hoursF1 + "H "
-        + minutesF1 + "M " + secondsF1 + "S ";
-
     if (distanceF1 < 0) {
         clearInterval(x);
         ElementF1.innerHTML = "EXPIRED";
+    } else {
+        ElementF1.innerHTML = daysF1 + "D " + hoursF1 + "H " + minutesF1 + "M " + secondsF1 + "S ";
     }
 }
 

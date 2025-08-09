@@ -10,12 +10,11 @@ function update18Timer() {
     var minutes18 = Math.floor((distance18 % (1000 * 60 * 60)) / (1000 * 60));
     var seconds18 = Math.floor((distance18 % (1000 * 60)) / 1000);
 
-    Element18.innerHTML = days18 + "D " + hours18 + "H "
-        + minutes18 + "M " + seconds18 + "S ";
-
     if (distance18 < 0) {
         clearInterval(x);
         Element18.innerHTML = "EXPIRED";
+    } else {
+        Element18.innerHTML = days18 + "D " + hours18 + "H " + minutes18 + "M " + seconds18 + "S ";
     }
 }
 
