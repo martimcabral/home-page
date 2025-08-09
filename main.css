@@ -33,7 +33,7 @@ html {
     margin: 20px;
 }
 
-.main-container {
+.container {
     margin: 0px 525px 0px 525px;
     border: 6px solid rgb(255, 255, 255);
     border-radius: 20px;
@@ -91,4 +91,27 @@ html {
     font-size: 25px;
     font-weight: normal;
     text-align: center;
+}
+
+.footer {
+    margin: 65px 525px 0px 525px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.footer audio {
+    margin-left: 40px;
+    width: 400px;
+    border-radius: 10px;
 }

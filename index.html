@@ -12,7 +12,7 @@
         <h1 id="current-time"></h1>
         <script src="current_time.js"></script>
     </div>
-    <div class="main-container">
+    <div class="container">
         <table>
             <tr>
                 <td>
@@ -105,6 +105,18 @@
             </tr>
         </table>
     </div>
-    <br><br>
+    <div class="footer">
+        <p>© Martim Cabral 2025</p>
+        <audio id="example-audio" src="sounds/outer_wilds.mp3" loop controls autoplay></audio>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const audio = document.getElementById("example-audio");
+                audio.volume = 0.05; 
+            });
+        </script>
+    </div>
+<br><br>
 </body>
 </html>
+
