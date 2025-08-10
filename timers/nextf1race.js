@@ -13,8 +13,12 @@ function updateF1Timer() {
     if (distanceF1 < 0) {
         clearInterval(x);
         ElementF1.innerHTML = "EXPIRED";
+
+    } else if (daysF1 < 1) {
+        ElementF1.innerHTML = hoursF1 + "H " + minutesF1 + "M " + secondsF1 + "S";
+
     } else {
-        ElementF1.innerHTML = daysF1 + "D " + hoursF1 + "H " + minutesF1 + "M " + secondsF1 + "S ";
+        ElementF1.innerHTML = daysF1 + "D " + hoursF1 + "H " + minutesF1 + "M";
     }
 }
 

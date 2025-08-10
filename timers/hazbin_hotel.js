@@ -13,8 +13,12 @@ function updateHHTimer() {
     if (distanceHH < 0) {
         clearInterval(x);
         ElementHH.innerHTML = "EXPIRED";
+
+    } else if (daysHH < 1) {
+        ElementHH.innerHTML = hoursHH + "H " + minutesHH + "M " + secondsHH + "S";
+
     } else {
-        ElementHH.innerHTML = daysHH + "D " + hoursHH + "H " + minutesHH + "M " + secondsHH + "S ";
+        ElementHH.innerHTML = daysHH + "D " + hoursHH + "H " + minutesHH + "M";
     }
 }
 

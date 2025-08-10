@@ -13,8 +13,12 @@ function updateHBTimer() {
     if (distanceHB < 0) {
         clearInterval(x);
         ElementHB.innerHTML = "EXPIRED";
+
+    } else if (daysHB < 1) {
+        ElementHB.innerHTML = hoursHB + "H " + minutesHB + "M " + secondsHB + "S";
+    
     } else {
-        ElementHB.innerHTML = daysHB + "D " + hoursHB + "H " + minutesHB + "M " + secondsHB + "S ";
+        ElementHB.innerHTML = daysHB + "D " + hoursHB + "H " + minutesHB + "M ";
     }
 }
 

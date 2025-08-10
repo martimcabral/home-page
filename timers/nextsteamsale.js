@@ -13,8 +13,12 @@ function updateNSteamSaleTimer() {
     if (distanceSteam < 0) {
         clearInterval(x);
         ElementSteam.innerHTML = "EXPIRED";
+
+    } else if (daysSteam < 1) {
+        ElementSteam.innerHTML = hoursSteam + "H " + minutesSteam + "M " + secondsSteam + "S";
+
     } else {
-        ElementSteam.innerHTML = daysSteam + "D " + hoursSteam + "H " + minutesSteam + "M " + secondsSteam + "S ";
+        ElementSteam.innerHTML = daysSteam + "D " + hoursSteam + "H " + minutesSteam + "M";
     }
 }
 

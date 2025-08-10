@@ -13,8 +13,12 @@ function update_WEDTimer() {
     if (distance_WED < 0) {
         clearInterval(x);
         Element_WED.innerHTML = "EXPIRED";
+
+    } else if (days_WED < 1) {
+        Element_WED.innerHTML = hours_WED + "H " + minutes_WED + "M " + seconds_WED + "S";
+        
     } else {
-        Element_WED.innerHTML = days_WED + "D " + hours_WED + "H " + minutes_WED + "M " + seconds_WED + "S ";
+        Element_WED.innerHTML = days_WED + "D " + hours_WED + "H " + minutes_WED + "M ";
     }
 }
 

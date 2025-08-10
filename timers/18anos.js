@@ -13,8 +13,12 @@ function update18Timer() {
     if (distance18 < 0) {
         clearInterval(x);
         Element18.innerHTML = "EXPIRED";
+
+    } else if (days18 < 1) {
+        Element18.innerHTML = hours18 + "H " + minutes18 + "M " + seconds18 + "S";
+        
     } else {
-        Element18.innerHTML = days18 + "D " + hours18 + "H " + minutes18 + "M " + seconds18 + "S ";
+        Element18.innerHTML = days18 + "D " + hours18 + "H " + minutes18 + "M";
     }
 }
 

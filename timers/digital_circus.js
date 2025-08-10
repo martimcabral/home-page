@@ -13,8 +13,12 @@ function updateDCTimer() {
     if (distanceDC < 0) {
         clearInterval(x);
         ElementDC.innerHTML = "EXPIRED";
+
+    } else if (daysDC < 1) {
+        ElementDC.innerHTML = hoursDC + "H " + minutesDC + "M " + secondsDC + "S";
+        
     } else {
-        ElementDC.innerHTML = daysDC + "D " + hoursDC + "H " + minutesDC + "M " + secondsDC + "S ";
+        ElementDC.innerHTML = daysDC + "D " + hoursDC + "H " + minutesDC + "M";
     }
 }
 

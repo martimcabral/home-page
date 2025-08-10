@@ -13,8 +13,12 @@ function update_MSTimer() {
     if (distance_MS < 0) {
         clearInterval(x);
         Element_MS.innerHTML = "EXPIRED";
+
+    } else if (days_MS < 1) {
+        Element_MS.innerHTML = hours_MS + "H " + minutes_MS + "M " + seconds_MS + "S";
+
     } else {
-        Element_MS.innerHTML = days_MS + "D " + hours_MS + "H " + minutes_MS + "M " + seconds_MS + "S ";
+        Element_MS.innerHTML = days_MS + "D " + hours_MS + "H " + minutes_MS + "M";
     }
 }
 
