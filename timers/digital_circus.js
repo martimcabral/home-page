@@ -1,5 +1,5 @@
 var ElementDC = document.getElementById("dctimer");
-var countDownDateDC = new Date("Aug 15, 2025 00:00:00").getTime();
+var countDownDateDC = new Date("Aug 15, 2025 21:00:00").getTime();
 
 function updateDCTimer() {
     var nowDC = new Date().getTime();
