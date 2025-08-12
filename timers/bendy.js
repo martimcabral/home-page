@@ -1,5 +1,5 @@
 var Element_bendy = document.getElementById("_bendytimer");
-var countDownDate_bendy = new Date("Oct 9, 2025 17:00:00").getTime();
+var countDownDate_bendy = new Date("Aug 15, 2025 17:00:00").getTime();
 
 function update_bendyTimer() {
     var now_bendy = new Date().getTime();
