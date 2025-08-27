@@ -1,5 +1,5 @@
 var Element_nightmare = document.getElementById("_nightmaretimer");
-var countDownDate_nightmare = new Date("Aug 15, 2025 17:00:00").getTime();
+var countDownDate_nightmare = new Date("Oct 9, 2025 17:00:00").getTime();
 
 function update_nightmareTimer() {
     var now_nightmare = new Date().getTime();
