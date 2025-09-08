@@ -1,5 +1,5 @@
 var Element_guinevere = document.getElementById("guinevere")
-var countDownDate_guinevere = new Date("Sep 9, 2025 22:00:00").getTime();
+var countDownDate_guinevere = new Date("Sep 19, 2025 22:00:00").getTime();
 
 function update_guinevereTimer() {
     var now_guinevere = new Date().getTime();

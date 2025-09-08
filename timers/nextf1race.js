@@ -1,5 +1,5 @@
 var ElementF1 = document.getElementById("f1timer");
-var countDownDateF1 = new Date("Sep 7, 2025 13:00:00").getTime();
+var countDownDateF1 = new Date("Sep 21, 2025 11:00:00").getTime();
 
 function updateF1Timer() {
     var nowF1 = new Date().getTime();
