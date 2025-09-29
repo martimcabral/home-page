@@ -1,5 +1,5 @@
 var ElementSteam = document.getElementById("steamtimer")
-var countDownDateSteam = new Date("Sep 29, 2025 17:00:00").getTime();
+var countDownDateSteam = new Date("Dec 18, 2025 17:00:00").getTime();
 
 function updateNSteamSaleTimer() {
     var nowSteam = new Date().getTime();
@@ -18,7 +18,7 @@ function updateNSteamSaleTimer() {
         ElementSteam.innerHTML = hoursSteam + "H " + minutesSteam + "M " + secondsSteam + "S";
 
     } else {
-        ElementSteam.innerHTML = daysSteam + "D " + hoursSteam + "H " + minutesSteam + "M";
+        ElementSteam.innerHTML = daysSteam + "D " + hoursSteam + "H " + minutesSteam + "M ";
     }
 }
 
