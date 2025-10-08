@@ -1,5 +1,5 @@
 var Element_MS = document.getElementById("_MStimer");
-var countDownDate_MS = new Date("Oct 8, 2025 19:30:00").getTime();
+var countDownDate_MS = new Date("Oct 21, 2025 23:30:00").getTime();
 
 function update_MSTimer() {
     var now_MS = new Date().getTime();
