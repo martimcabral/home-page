@@ -1,5 +1,5 @@
 var Element_glitch = document.getElementById("_glitchtimer");
-var countDownDate_glitch = new Date("Oct 10, 2025 23:59:00").getTime();
+var countDownDate_glitch = new Date("Oct 10, 2025 19:00:00").getTime();
 
 function update_glitchTimer() {
     var now_glitch = new Date().getTime();
