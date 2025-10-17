@@ -1,6 +1,13 @@
-import CurrentTimer from "./components/current-timer"
-import Footer from "./components/footer"
-import Timer from "./components/timer"
+import CurrentTimer from "./current-timer"
+import Footer from "./footer"
+import Timer from "./timer"
+
+import imageF1 from "./imgs/f1.png"
+import imageMeteor from "./imgs/meteor.jpg"
+import imageHazbinHotel from "./imgs/hazbin-hotel-s2.png"
+import imageTheAmazingDigitalCircus from "./imgs/tadc.png"
+import imageSteam from "./imgs/steam.png"
+import imageResidentEvilRequiem from "./imgs/re9.png"
 
 function App() {
   return (
@@ -17,13 +24,13 @@ function App() {
                               <b>Free Practice 1:</b> 17:30 - 18:30 <br>
                               <b>Sprint Qualifying:</b> 21:30 - 22:14 <br><br>
                               <i>18 de Outubro:</i> <br>
-                              <b>Sprint:</b> 17:00 17:30 <br>
+                              <b>Sprint:</b> 17:00 - 17:30 <br>
                               <b>Qualifying:</b> 21:00 - 22:00 <br><br>
                               <i>19 de Outubro: </i> <br>
                               <b>Race:</b> 19:00 <br>
                             "
                 website="https://www.formula1.com/"
-                image="./src/imgs/f1.png"
+                image={imageF1}
               />
                 
               <Timer 
@@ -36,7 +43,7 @@ function App() {
                               21-22 de Outubro de 2025 - 23:30
                             "
                 website="https://www.timeanddate.com/astronomy/meteor-shower/list.html"
-                image="./src/imgs/meteor.jpg"
+                image={imageMeteor}
               />
 
               <Timer 
@@ -47,7 +54,7 @@ function App() {
                               29 de Outubro de 2025
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
-                image="./src/imgs/hazbin-hotel-s2.png"
+                image={imageHazbinHotel}
               />
               
 
@@ -59,7 +66,7 @@ function App() {
                               5 de Novembro de 2025
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
-                image="./src/imgs/hazbin-hotel-s2.png"
+                image={imageHazbinHotel}
               />
 
               <Timer 
@@ -70,7 +77,7 @@ function App() {
                               12 de Novembro de 2025
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
-                image="./src/imgs/hazbin-hotel-s2.png"
+                image={imageHazbinHotel}
               />
 
               <Timer 
@@ -81,7 +88,7 @@ function App() {
                               19 de Novembro de 2025
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
-                image="./src/imgs/hazbin-hotel-s2.png"
+                image={imageHazbinHotel}
               />
 
               <Timer 
@@ -92,7 +99,7 @@ function App() {
                               12 de Dezembro de 2025 - 22:00
                             "
                 website="https://www.youtube.com/watch?v=c6_4szhYNbA"
-                image="./src/imgs/tadc.png"
+                image={imageTheAmazingDigitalCircus}
               />
 
               <Timer 
@@ -100,7 +107,7 @@ function App() {
                 dateJS="Dec 18, 2025 17:00:00"
                 description="18 de Dezembro de 2025 - 17:00"
                 website="https://store.steampowered.com/wishlist/id/atlas_13/"
-                image="./src/imgs/steam.png"
+                image={imageSteam}
               />
 
               <Timer 
@@ -108,7 +115,7 @@ function App() {
                 dateJS="Feb 27, 2026 17:00:00"
                 description="27 de Fevereiro de 2026"
                 website="https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/"
-                image="./src/imgs/re9.png"
+                image={imageResidentEvilRequiem}
               />
 
               <Timer 
@@ -119,7 +126,7 @@ function App() {
                               20 de Março de 2026 - 22:00
                             "
                 website="https://store.steampowered.com/wishlist/id/atlas_13/"
-                image="./src/imgs/tadc.png"
+                image={imageTheAmazingDigitalCircus}
               />
             </tr>
         </table>
