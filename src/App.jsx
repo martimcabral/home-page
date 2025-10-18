@@ -8,6 +8,7 @@ import imageHazbinHotel from "./imgs/hazbin-hotel-s2.png"
 import imageTheAmazingDigitalCircus from "./imgs/tadc.png"
 import imageSteam from "./imgs/steam.png"
 import imageResidentEvilRequiem from "./imgs/re9.png"
+import imagePhasmophobia from "./imgs/phasmo.avif"
 
 function App() {
   return (
@@ -87,6 +88,16 @@ function App() {
                             "
                 website="https://www.formula1.com/"
                 image={imageF1}
+              />
+
+               <Timer 
+                title="👻 Phasmophobia - Nell's Diner"
+                dateJS="Nov 11, 2025 23:59:00"
+                description="
+                              11 de Novembro de 2025
+                            "ç
+                website="https://www.formula1.com/"
+                image={imagePhasmophobia}
               />
 
               <Timer 
