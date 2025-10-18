@@ -47,6 +47,16 @@ function App() {
               />
 
               <Timer 
+                title="🏎️ Fórmula 1:   🇲🇽 México 🇲🇽"
+                dateJS="Oct 26, 2025 19:00:00"
+                description="
+                              24-26 de Outubro de 2025
+                            "
+                website="https://www.formula1.com/"
+                image={imageF1}
+              />
+
+              <Timer 
                 title="🏨 Hazbin Hotel"
                 dateJS="Oct 29, 2025 00:00:00"
                 description="
@@ -70,6 +80,16 @@ function App() {
               />
 
               <Timer 
+                title="🏎️ Fórmula 1:   🇧🇷 Brasil 🇧🇷"
+                dateJS="Nov 9, 2025 19:00:00"
+                description="
+                              7-9 de Novembro de 2025
+                            "
+                website="https://www.formula1.com/"
+                image={imageF1}
+              />
+
+              <Timer 
                 title="🏨 Hazbin Hotel"
                 dateJS="Nov 12, 2025 00:00:00"
                 description="
@@ -89,6 +109,36 @@ function App() {
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
+              />
+
+              <Timer 
+                title="🏎️ Fórmula 1:   🇺🇸 Las Vegas 🇺🇸"
+                dateJS="Nov 23, 2025 19:00:00"
+                description="
+                              20-23 de Novembro de 2025
+                            "
+                website="https://www.formula1.com/"
+                image={imageF1}
+              />
+
+              <Timer 
+                title="🏎️ Fórmula 1:   🇶🇦 Catar 🇶🇦"
+                dateJS="Nov 30, 2025 19:00:00"
+                description="
+                              28-30 de Novembro de 2025
+                            "
+                website="https://www.formula1.com/"
+                image={imageF1}
+              />
+
+              <Timer 
+                title="🏎️ Fórmula 1:   🇦🇪 Abu Dhabi 🇦🇪"
+                dateJS="Dec 07, 2025 12:00:00"
+                description="
+                              5-7 de Dezembro de 2025
+                            "
+                website="https://www.formula1.com/"
+                image={imageF1}
               />
 
               <Timer 
