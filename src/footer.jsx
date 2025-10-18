@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import soundsOuterWilds from "./sounds/outer_wilds.mp3"
 
 function Footer() {
   const [year, setYear] = useState(new Date().getFullYear());
@@ -15,7 +16,7 @@ function Footer() {
       <p>© Martim Cabral - {year}</p>
       <audio
         ref={audioRef}
-        src="./src/sounds/outer_wilds.mp3"
+        src={soundsOuterWilds}
         loop
         controls
         autoPlay
