@@ -18,23 +18,6 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🏎️ Fórmula 1:   🇺🇸 Estados Unidos 🇺🇸"
-                dateJS="Oct 19, 2025 19:00:00"
-                description="
-                              <i>17 de Outubro:</i> <br>
-                              <b>Free Practice 1:</b> 17:30 - 18:30 <br>
-                              <b>Sprint Qualifying:</b> 21:30 - 22:14 <br><br>
-                              <i>18 de Outubro:</i> <br>
-                              <b>Sprint:</b> 17:00 - 17:30 <br>
-                              <b>Qualifying:</b> 21:00 - 22:00 <br><br>
-                              <i>19 de Outubro: </i> <br>
-                              <b>Race:</b> 19:00 <br>
-                            "
-                website="https://www.formula1.com/"
-                image={imageF1}
-              />
-                
-              <Timer 
                 title="🌌 Meteor Shower - Orionids "
                 dateJS="Oct 21, 2025 23:30:00"
                 description="
@@ -51,7 +34,14 @@ function App() {
                 title="🏎️ Fórmula 1:   🇲🇽 México 🇲🇽"
                 dateJS="Oct 26, 2025 19:00:00"
                 description="
-                              24-26 de Outubro de 2025
+                              <i>24 de Outubro:</i> <br>
+                              <b>Free Practice 1:</b> 18:30 - 19:30 <br>
+                              <b>Free Practice 2:</b> 22:00 - 23:00 <br><br>
+                              <i>25 de Outubro:</i> <br>
+                              <b>Free Practice 3:</b> 17:30 - 18:30 <br>
+                              <b>Qualifying:</b> 21:00 - 22:00 <br><br>
+                              <i>26 de Outubro: </i> <br>
+                              <b>Race:</b> 19:00 <br>
                             "
                 website="https://www.formula1.com/"
                 image={imageF1}
