@@ -18,19 +18,6 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🌌 Meteor Shower - Orionids "
-                dateJS="Oct 21, 2025 23:30:00"
-                description="
-                              23:30 -> (NE/E) | 01:30 -> (E) <br>
-                              04:30 -> (SE) | 06:00 -> (S) <br>
-                              07:00 -> (SW) <br><br>
-                              21-22 de Outubro de 2025 - 23:30
-                            "
-                website="https://www.timeanddate.com/astronomy/meteor-shower/list.html"
-                image={imageMeteor}
-              />
-
-              <Timer 
                 title="🏎️ Fórmula 1:   🇲🇽 México 🇲🇽"
                 dateJS="Oct 26, 2025 19:00:00"
                 description="
@@ -99,6 +86,16 @@ function App() {
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
+              />
+
+              <Timer 
+                title="🌌 Meteor Shower - Leonids "
+                dateJS="Nov 18, 2025 00:30:00"
+                description="
+                              18 de Novembro de 2025 - 00:30
+                            "
+                website="https://www.timeanddate.com/astronomy/meteor-shower/list.html"
+                image={imageMeteor}
               />
 
               <Timer 
