@@ -7,7 +7,7 @@
 
 html {
   font-family: 'DM Sans';
-  background-image: url('./imgs/background.png');
+  background-image: url('./imgs/background.webp');
   margin: 0;
   padding: 0;
   background-size: cover;
@@ -19,22 +19,32 @@ html {
 }
 
 .current-time {
-    margin: 43vh 750px 500px 730px;
-    font-size: 40px;
+    margin: 0px auto;
+    margin-top: 380px;
+    width: 490px;
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(15px);
+    flex-direction: column;
+    backdrop-filter: blur(50px);
     border: 6px solid rgb(255, 255, 255);
     border-radius: 20px;
 }
 
 .current-time h1 {
-    margin: 20px;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 80px;
 }
 
-.mainContainer {
-    margin: 0px 525px 0px 525px;
+.current-time h2 {
+    font-size: 30px;
+}
+
+.contentContainer {
+    margin: 0px auto;
+    margin-top: 400px;
+    width: 850px;
     border: 6px solid rgb(255, 255, 255);
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -68,6 +78,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-right: 40px;
+    border-radius: 12px;
     filter: drop-shadow(rgb(0, 0, 0) 0px 0px 10px);
 }
 
@@ -114,4 +125,10 @@ html {
     margin-left: 40px;
     width: 400px;
     border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .content-logo {
+        display: none;
+    }
 }

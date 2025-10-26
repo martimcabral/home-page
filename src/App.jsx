@@ -9,31 +9,15 @@ import imageTheAmazingDigitalCircus from "./imgs/tadc.png"
 import imageSteam from "./imgs/steam.png"
 import imageResidentEvilRequiem from "./imgs/re9.png"
 import imagePhasmophobia from "./imgs/phasmo.avif"
+import imageSatisfactory from "./imgs/satis.webp"
 
 function App() {
   return (
     <>
       <CurrentTimer />
-      <div className="mainContainer">
+      <div className="contentContainer">
         <table>
             <tr>
-              <Timer 
-                title="🏎️ Fórmula 1:   🇲🇽 México 🇲🇽"
-                dateJS="Oct 26, 2025 19:00:00"
-                description="
-                              <i>24 de Outubro:</i> <br>
-                              <b>Free Practice 1:</b> 18:30 - 19:30 <br>
-                              <b>Free Practice 2:</b> 22:00 - 23:00 <br><br>
-                              <i>25 de Outubro:</i> <br>
-                              <b>Free Practice 3:</b> 17:30 - 18:30 <br>
-                              <b>Qualifying:</b> 21:00 - 22:00 <br><br>
-                              <i>26 de Outubro: </i> <br>
-                              <b>Race:</b> 19:00 <br>
-                            "
-                website="https://www.formula1.com/"
-                image={imageF1}
-              />
-
               <Timer 
                 title="🏨 Hazbin Hotel"
                 dateJS="Oct 29, 2025 00:00:00"
@@ -43,6 +27,16 @@ function App() {
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
+              />
+
+              <Timer 
+                title="🏭 Satisfactory 1.2 - Experimental"
+                dateJS="Nov 4, 2025 17:00:00"
+                description="
+                              4 de Novembro de 2025
+                            "
+                website="https://www.youtube.com/CoffeeStainStudios"
+                image={imageSatisfactory}
               />
               
 
@@ -59,9 +53,18 @@ function App() {
 
               <Timer 
                 title="🏎️ Fórmula 1:   🇧🇷 Brasil 🇧🇷"
-                dateJS="Nov 9, 2025 19:00:00"
+                dateJS="Nov 9, 2025 16:00:00"
                 description="
-                              7-9 de Novembro de 2025
+                              <i>7 de Novembro:</i> <br>
+                              <b>Free Practice 1:</b> 13:30 - 14:30 <br>
+                              <b>Sprint Qualifying:</b> 17:30 - 18:14 <br><br>
+
+                              <i>8 de Novembro:</i> <br>
+                              <b>Sprint:</b> 13:00 - 14:00 <br>
+                              <b>Qualifying:</b> 17:00 - 18:00 <br><br>
+
+                              <i>9 de Novembro:</i> <br>
+                              <b>Race:</b> 16:00 <br>
                             "
                 website="https://www.formula1.com/"
                 image={imageF1}
