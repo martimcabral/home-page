@@ -20,10 +20,10 @@ function App() {
             <tr>
               <Timer 
                 title="🏨 Hazbin Hotel"
-                dateJS="Oct 29, 2025 00:00:00"
+                dateJS="Oct 29, 2025 09:00:00"
                 description="
                               1º & 2º Episódio - 2ª Temporada <br><br>
-                              29 de Outubro de 2025
+                              29 de Outubro de 2025 - 09:00
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
