@@ -19,17 +19,6 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🏨 Hazbin Hotel"
-                dateJS="Oct 29, 2025 09:00:00"
-                description="
-                              1º & 2º Episódio - 2ª Temporada <br><br>
-                              29 de Outubro de 2025 - 09:00
-                            "
-                website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
-                image={imageHazbinHotel}
-              />
-
-              <Timer 
                 title="🏭 Satisfactory 1.2 - Experimental"
                 dateJS="Nov 4, 2025 17:00:00"
                 description="
@@ -38,14 +27,13 @@ function App() {
                 website="https://www.youtube.com/CoffeeStainStudios"
                 image={imageSatisfactory}
               />
-              
 
               <Timer 
                 title="🏨 Hazbin Hotel"
-                dateJS="Nov 5, 2025 00:00:00"
+                dateJS="Nov 5, 2025 09:00:00"
                 description="
                               3º & 4º Episódio - 2ª Temporada <br><br>
-                              5 de Novembro de 2025
+                              5 de Novembro de 2025 - 09:00
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
@@ -74,7 +62,7 @@ function App() {
                 title="👻 Phasmophobia - Nell's Diner"
                 dateJS="Nov 11, 2025 23:59:00"
                 description="
-                              11 de Novembro de 2025
+                              11 de Novembro de 2025 
                             "ç
                 website="https://www.formula1.com/"
                 image={imagePhasmophobia}
@@ -82,10 +70,10 @@ function App() {
 
               <Timer 
                 title="🏨 Hazbin Hotel"
-                dateJS="Nov 12, 2025 00:00:00"
+                dateJS="Nov 12, 2025 09:00:00"
                 description="
                               5º & 6º Episódio - 2ª Temporada <br><br>
-                              12 de Novembro de 2025
+                              12 de Novembro de 2025 - 09:00
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
@@ -103,10 +91,10 @@ function App() {
 
               <Timer 
                 title="🏨 Hazbin Hotel"
-                dateJS="Nov 19, 2025 00:00:00"
+                dateJS="Nov 19, 2025 09:00:00"
                 description="
                               7º & 8º Episódio - 2ª Temporada <br><br>
-                              19 de Novembro de 2025
+                              19 de Novembro de 2025 - 09:00
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
