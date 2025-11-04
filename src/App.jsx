@@ -19,16 +19,6 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🏭 Satisfactory 1.2 - Experimental"
-                dateJS="Nov 4, 2025 17:00:00"
-                description="
-                              4 de Novembro de 2025
-                            "
-                website="https://www.youtube.com/CoffeeStainStudios"
-                image={imageSatisfactory}
-              />
-
-              <Timer 
                 title="🏨 Hazbin Hotel"
                 dateJS="Nov 5, 2025 09:00:00"
                 description="
