@@ -9,7 +9,6 @@ import imageTheAmazingDigitalCircus from "./imgs/tadc.png"
 import imageSteam from "./imgs/steam.png"
 import imageResidentEvilRequiem from "./imgs/re9.png"
 import imagePhasmophobia from "./imgs/phasmo.avif"
-import imageSatisfactory from "./imgs/satis.webp"
 
 function App() {
   return (
