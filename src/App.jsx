@@ -18,17 +18,6 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🏨 Hazbin Hotel"
-                dateJS="Nov 5, 2025 09:00:00"
-                description="
-                              3º & 4º Episódio - 2ª Temporada <br><br>
-                              5 de Novembro de 2025 - 09:00
-                            "
-                website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
-                image={imageHazbinHotel}
-              />
-
-              <Timer 
                 title="🏎️ Fórmula 1:   🇧🇷 Brasil 🇧🇷"
                 dateJS="Nov 9, 2025 16:00:00"
                 description="
