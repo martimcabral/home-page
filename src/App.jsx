@@ -8,7 +8,6 @@ import imageHazbinHotel from "./imgs/hazbin-hotel-s2.png"
 import imageTheAmazingDigitalCircus from "./imgs/tadc.png"
 import imageSteam from "./imgs/steam.png"
 import imageResidentEvilRequiem from "./imgs/re9.png"
-import imagePhasmophobia from "./imgs/phasmo.avif"
 
 function App() {
   return (
@@ -18,40 +17,11 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🏎️ Fórmula 1:   🇧🇷 Brasil 🇧🇷"
-                dateJS="Nov 9, 2025 16:00:00"
-                description="
-                              <i>7 de Novembro:</i> <br>
-                              <b>Free Practice 1:</b> 13:30 - 14:30 <br>
-                              <b>Sprint Qualifying:</b> 17:30 - 18:14 <br><br>
-
-                              <i>8 de Novembro:</i> <br>
-                              <b>Sprint:</b> 13:00 - 14:00 <br>
-                              <b>Qualifying:</b> 17:00 - 18:00 <br><br>
-
-                              <i>9 de Novembro:</i> <br>
-                              <b>Race:</b> 16:00 <br>
-                            "
-                website="https://www.formula1.com/"
-                image={imageF1}
-              />
-
-               <Timer 
-                title="👻 Phasmophobia - Nell's Diner"
-                dateJS="Nov 11, 2025 23:59:00"
-                description="
-                              11 de Novembro de 2025 
-                            "ç
-                website="https://www.formula1.com/"
-                image={imagePhasmophobia}
-              />
-
-              <Timer 
                 title="🏨 Hazbin Hotel"
                 dateJS="Nov 12, 2025 09:00:00"
                 description="
                               5º & 6º Episódio - 2ª Temporada <br><br>
-                              12 de Novembro de 2025 - 09:00
+                              12 de Novembro de 2025 - 07:00
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
@@ -72,7 +42,7 @@ function App() {
                 dateJS="Nov 19, 2025 09:00:00"
                 description="
                               7º & 8º Episódio - 2ª Temporada <br><br>
-                              19 de Novembro de 2025 - 09:00
+                              19 de Novembro de 2025 - 07:00
                             "
                 website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
                 image={imageHazbinHotel}
@@ -80,9 +50,20 @@ function App() {
 
               <Timer 
                 title="🏎️ Fórmula 1:   🇺🇸 Las Vegas 🇺🇸"
-                dateJS="Nov 23, 2025 19:00:00"
+                dateJS="Nov 23, 2025 03:00:00"
                 description="
-                              20-23 de Novembro de 2025
+                              <i>20 de Novembro:</i> <br>
+                              <b>Free Practice 1:</b> 23:30 - 00:30 <br><br>
+
+                              <i>21 de Novembro:</i> <br>
+                              <b>Free Practice 2:</b> 03:00 - 04:00 <br>
+                              <b>Free Practice 3:</b> 23:30 - 00:30 <br><br>
+
+                              <i>22 de Novembro:</i> <br>
+                              <b>Qualifying:</b> 03:00 - 04:00 <br><br>
+
+                              <i>23 de Novembro:</i> <br>
+                              <b>Race:</b> 03:00 <br>
                             "
                 website="https://www.formula1.com/"
                 image={imageF1}
