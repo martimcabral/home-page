@@ -17,17 +17,6 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🏨 Hazbin Hotel"
-                dateJS="Nov 12, 2025 09:00:00"
-                description="
-                              5º & 6º Episódio - 2ª Temporada <br><br>
-                              12 de Novembro de 2025 - 07:00
-                            "
-                website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
-                image={imageHazbinHotel}
-              />
-
-              <Timer 
                 title="🌌 Meteor Shower - Leonids "
                 dateJS="Nov 18, 2025 00:30:00"
                 description="
