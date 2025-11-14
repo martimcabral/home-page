@@ -8,6 +8,7 @@ import imageHazbinHotel from "./imgs/hazbin-hotel-s2.png"
 import imageTheAmazingDigitalCircus from "./imgs/tadc.png"
 import imageSteam from "./imgs/steam.png"
 import imageResidentEvilRequiem from "./imgs/re9.png"
+import imageEuroTruckSimulator from "./imgs/ets2.png"
 
 function App() {
   return (
@@ -56,6 +57,17 @@ function App() {
                             "
                 website="https://www.formula1.com/"
                 image={imageF1}
+              />
+
+              <Timer 
+                title="🚚 Euro Truck Simulator 2"
+                dateJS="Nov 28, 2025 19:00:00"
+                description="
+                              Nordic Horizons<br>
+                              28 de Novembro de 2025
+                            "
+                website="https://store.steampowered.com/app/2780810/Euro_Truck_Simulator_2__Nordic_Horizons/"
+                image={imageEuroTruckSimulator}
               />
 
               <Timer 
