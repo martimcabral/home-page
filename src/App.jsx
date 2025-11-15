@@ -55,7 +55,7 @@ function App() {
                               <i>23 de Novembro:</i> <br>
                               <b>Race:</b> 03:00 <br>
                             "
-                website="https://www.formula1.com/"
+                website="https://www.formula1.com/en/racing/2025/las-vegas"
                 image={imageF1}
               />
 
@@ -74,9 +74,9 @@ function App() {
                 title="🏎️ Fórmula 1:   🇶🇦 Catar 🇶🇦"
                 dateJS="Nov 30, 2025 19:00:00"
                 description="
-                              28-30 de Novembro de 2025
+                              28-30 de Novembro de 2025 - 15:00
                             "
-                website="https://www.formula1.com/"
+                website="https://www.formula1.com/en/racing/2025/qatar"
                 image={imageF1}
               />
 
@@ -84,9 +84,9 @@ function App() {
                 title="🏎️ Fórmula 1:   🇦🇪 Abu Dhabi 🇦🇪"
                 dateJS="Dec 07, 2025 12:00:00"
                 description="
-                              5-7 de Dezembro de 2025
+                              5-7 de Dezembro de 2025 - 12:00
                             "
-                website="https://www.formula1.com/"
+                website="https://www.formula1.com/en/racing/2025/united-arab-emirates"
                 image={imageF1}
               />
 
