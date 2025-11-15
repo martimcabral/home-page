@@ -64,14 +64,14 @@ Error generating stack: `+a.message+`
 \r
                               <i>23 de Novembro:</i> <br>\r
                               <b>Race:</b> 03:00 <br>\r
-                            `,website:"https://www.formula1.com/",image:yi}),$.jsx(Ut,{title:"🚚 Euro Truck Simulator 2",dateJS:"Nov 28, 2025 19:00:00",description:`\r
+                            `,website:"https://www.formula1.com/en/racing/2025/las-vegas",image:yi}),$.jsx(Ut,{title:"🚚 Euro Truck Simulator 2",dateJS:"Nov 28, 2025 19:00:00",description:`\r
                               Nordic Horizons<br>\r
                               28 de Novembro de 2025\r
                             `,website:"https://store.steampowered.com/app/2780810/Euro_Truck_Simulator_2__Nordic_Horizons/",image:y1}),$.jsx(Ut,{title:"🏎️ Fórmula 1:   🇶🇦 Catar 🇶🇦",dateJS:"Nov 30, 2025 19:00:00",description:`\r
-                              28-30 de Novembro de 2025\r
-                            `,website:"https://www.formula1.com/",image:yi}),$.jsx(Ut,{title:"🏎️ Fórmula 1:   🇦🇪 Abu Dhabi 🇦🇪",dateJS:"Dec 07, 2025 12:00:00",description:`\r
-                              5-7 de Dezembro de 2025\r
-                            `,website:"https://www.formula1.com/",image:yi}),$.jsx(Ut,{title:"🎪 The Amazing Digital Circus",dateJS:"Dec 12, 2025 22:00:00",description:`\r
+                              28-30 de Novembro de 2025 - 15:00\r
+                            `,website:"https://www.formula1.com/en/racing/2025/qatar",image:yi}),$.jsx(Ut,{title:"🏎️ Fórmula 1:   🇦🇪 Abu Dhabi 🇦🇪",dateJS:"Dec 07, 2025 12:00:00",description:`\r
+                              5-7 de Dezembro de 2025 - 12:00\r
+                            `,website:"https://www.formula1.com/en/racing/2025/united-arab-emirates",image:yi}),$.jsx(Ut,{title:"🎪 The Amazing Digital Circus",dateJS:"Dec 12, 2025 22:00:00",description:`\r
                               7º Episódio - 1ª Temporada <br><br>\r
                               12 de Dezembro de 2025 - 22:00\r
                             `,website:"https://www.youtube.com/watch?v=c6_4szhYNbA",image:Mm}),$.jsx(Ut,{title:"❄️ Promoção da Steam: Inverno",dateJS:"Dec 18, 2025 17:00:00",description:"18 de Dezembro de 2025 - 17:00",website:"https://store.steampowered.com/wishlist/id/atlas_13/",image:v1}),$.jsx(Ut,{title:"🌆 Resident Evil Requiem",dateJS:"Feb 27, 2026 17:00:00",description:"27 de Fevereiro de 2026",website:"https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/",image:m1}),$.jsx(Ut,{title:"🎪 The Amazing Digital Circus",dateJS:"Mar 20, 2026 22:00:00",description:`\r
