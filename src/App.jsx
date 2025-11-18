@@ -18,16 +18,6 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🌌 Meteor Shower - Leonids "
-                dateJS="Nov 18, 2025 00:30:00"
-                description="
-                              18 de Novembro de 2025 - 00:30
-                            "
-                website="https://www.timeanddate.com/astronomy/meteor-shower/list.html"
-                image={imageMeteor}
-              />
-
-              <Timer 
                 title="🏨 Hazbin Hotel"
                 dateJS="Nov 19, 2025 09:00:00"
                 description="
@@ -99,6 +89,16 @@ function App() {
                             "
                 website="https://www.youtube.com/watch?v=c6_4szhYNbA"
                 image={imageTheAmazingDigitalCircus}
+              />
+
+              <Timer 
+                title="🌌 Meteor Shower - Geminids"
+                dateJS="Dec 13, 2025 19:45:00"
+                description="
+                              13 de Dezembro de 2025 - 19:45
+                            "
+                website="https://www.timeanddate.com/astronomy/meteor-shower/list.html"
+                image={imageMeteor}
               />
 
               <Timer 
