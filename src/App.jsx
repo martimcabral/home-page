@@ -4,7 +4,6 @@ import Timer from "./timer"
 
 import imageF1 from "./imgs/f1.png"
 import imageMeteor from "./imgs/meteor.jpg"
-import imageHazbinHotel from "./imgs/hazbin-hotel-s2.png"
 import imageTheAmazingDigitalCircus from "./imgs/tadc.png"
 import imageSteam from "./imgs/steam.png"
 import imageResidentEvilRequiem from "./imgs/re9.png"
@@ -17,17 +16,6 @@ function App() {
       <div className="contentContainer">
         <table>
             <tr>
-              <Timer 
-                title="🏨 Hazbin Hotel"
-                dateJS="Nov 19, 2025 09:00:00"
-                description="
-                              7º & 8º Episódio - 2ª Temporada <br><br>
-                              19 de Novembro de 2025 - 07:00
-                            "
-                website="https://www.amazon.com/-/es/gp/video/detail/B0FQV93QY8/ref=atv_dp_season_select_s2"
-                image={imageHazbinHotel}
-              />
-
               <Timer 
                 title="🏎️ Fórmula 1:   🇺🇸 Las Vegas 🇺🇸"
                 dateJS="Nov 23, 2025 03:00:00"
