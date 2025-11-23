@@ -17,27 +17,6 @@ function App() {
         <table>
             <tr>
               <Timer 
-                title="🏎️ Fórmula 1:   🇺🇸 Las Vegas 🇺🇸"
-                dateJS="Nov 23, 2025 03:00:00"
-                description="
-                              <i>20 de Novembro:</i> <br>
-                              <b>Free Practice 1:</b> 23:30 - 00:30 <br><br>
-
-                              <i>21 de Novembro:</i> <br>
-                              <b>Free Practice 2:</b> 03:00 - 04:00 <br>
-                              <b>Free Practice 3:</b> 23:30 - 00:30 <br><br>
-
-                              <i>22 de Novembro:</i> <br>
-                              <b>Qualifying:</b> 03:00 - 04:00 <br><br>
-
-                              <i>23 de Novembro:</i> <br>
-                              <b>Race:</b> 03:00 <br>
-                            "
-                website="https://www.formula1.com/en/racing/2025/las-vegas"
-                image={imageF1}
-              />
-
-              <Timer 
                 title="🚚 Euro Truck Simulator 2"
                 dateJS="Nov 28, 2025 19:00:00"
                 description="
@@ -52,7 +31,16 @@ function App() {
                 title="🏎️ Fórmula 1:   🇶🇦 Catar 🇶🇦"
                 dateJS="Nov 30, 2025 19:00:00"
                 description="
-                              28-30 de Novembro de 2025 - 15:00
+                              <i>28 de Novembro:</i> <br>
+                              <b>Free Practice 1:</b> 12:30 - 13:30 <br>
+                              <b>Sprint Qualifying:</b> 16:30 - 17:14 <br><br>
+
+                              <i>29 de Novembro:</i> <br>
+                              <b>Sprint:</b> 13:00 - 14:00 <br>
+                              <b>Qualifying:</b> 17:00 - 18:00 <br><br>
+
+                              <i>30 de Novembro:</i> <br>
+                              <b>Race:</b> 15:00 - 17:00<br>
                             "
                 website="https://www.formula1.com/en/racing/2025/qatar"
                 image={imageF1}
